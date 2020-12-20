@@ -13,7 +13,3 @@ $nas = new \KAI_WU\SynoNas('Address', 'Port');
 $nas->login('Username', 'Password', 'Session Name');
 $nas->logout();
 ```
-
-Session Name is known to be:
-- FileStation
-- DownloadStation
